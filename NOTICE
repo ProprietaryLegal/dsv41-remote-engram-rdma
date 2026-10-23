@@ -1,0 +1,12 @@
+PLI Labs — dsv41-remote-engram-rdma
+Copyright 2026 Proprietary Legal Intelligence LLC
+
+PLI Labs additions: Apache-2.0; full text: LICENSES/Apache-2.0.txt.
+
+Included third-party-derived components:
+- code/engram/spark/engram.py and code/engram/layout.py derive from the vLLM/HeNryous serving stack. Copyright contributors to the vLLM project. Apache-2.0; full text: LICENSES/Apache-2.0.txt. Original source headers are retained. PLI Labs adds the remote backend, identity checks, staging and local fallback integration.
+- The overlay ports the DeepSeek Engram inference reference. Copyright (c) 2023 DeepSeek. MIT; full text: LICENSES/DeepSeek-MIT.txt.
+
+The remaining Engram server/protocol/client, extension, transport and tests are PLI Labs implementation. No other third-party source or patch set is included in these directories.
+
+External dependencies, not bundled: DeepSeek weights, libibverbs/rdma-core, OpenSSL libcrypto, PyTorch, CUDA and the serving image. Their own licence terms apply. The sudoingX recipe supplies deployment context; no separate recipe patch set is included here.
