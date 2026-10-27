@@ -10,6 +10,13 @@ Serve the model's Engram lookup rows from an x86 host instead of each Spark's NV
 
 <!-- pli:blurb:end -->
 
+<!-- pli:update:2026-10-27:start -->
+
+**Update 2026-10-27:** the full DSV41 source is now public — [dsv41-offload](https://github.com/ProprietaryLegal/dsv41-offload) (every component; `production`, `main` and per-experiment `lane/*` branches), with focused repos for the [measurement harness](https://github.com/ProprietaryLegal/dsv41-window-harness) and [sampled drafting](https://github.com/ProprietaryLegal/dsv41-sampled-drafting). Status and lessons: [2026-10-27 post](https://github.com/ProprietaryLegal/pli-labs/blob/main/research/dgx-spark-offload/2026-10-27-status-and-code.md).
+
+<!-- pli:update:2026-10-27:end -->
+
+
 ## Status
 
 2026-10-23 — production: remote Engram has served since 2026-10-22; row exactness and long-context prefill are qualified on the tested image, with no demonstrated decode gain.
