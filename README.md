@@ -2,7 +2,7 @@
 
 Serve the model's Engram lookup rows from an x86 host instead of each Spark's NVMe. The engine keeps its local reader as an exact fallback. This source package is part of a system with two DGX Spark (GB10) nodes and an x86 offload host with RTX 3090s; Engram itself uses host RAM and no x86 GPU.
 
-**Hugging Face:** [Card and files](https://huggingface.co/ProprietaryLegal/dsv41-remote-engram-rdma) · **Stack overview:** [GitHub](https://github.com/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload) · **Collection:** [All entries](https://huggingface.co/collections/ProprietaryLegal/deepseek-v41-flash-on-2x-dgx-spark-x86-offload-6adab604a517b426ded3916e)
+**Hugging Face:** [Card and files](https://huggingface.co/ProprietaryLegal/dsv41-remote-engram-rdma) · **DGX sPLIce:** [GitHub](https://github.com/ProprietaryLegal/DGX-sPLIce-DeepSeek-V4.1-Flash-2xDGX-Spark-2xRTX3090-drafter-x86-offload) · **Collection:** [All entries](https://huggingface.co/collections/ProprietaryLegal/deepseek-v41-flash-on-2x-dgx-spark-x86-offload-6adab604a517b426ded3916e)
 
 <!-- pli:blurb:start -->
 
@@ -173,7 +173,7 @@ Our code is Apache-2.0. The overlay and copied layout helpers derive from the vL
 | Native SM86 drafter | [Source](https://github.com/ProprietaryLegal/dsv41-native-1017-drafter-sm86) | [Card](https://huggingface.co/ProprietaryLegal/dsv41-native-1017-drafter-sm86) |
 | Benchmark tools | [Source](https://github.com/ProprietaryLegal/dsv41-longctx-bench-tools) | [Card](https://huggingface.co/ProprietaryLegal/dsv41-longctx-bench-tools) |
 | Exact acceptance ceiling | [Source](https://github.com/ProprietaryLegal/dsv41-exact-acceptance-ceiling) | [Card](https://huggingface.co/ProprietaryLegal/dsv41-exact-acceptance-ceiling) |
-| Full stack overview | [Source](https://github.com/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload) | [Card](https://huggingface.co/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload) |
+| DGX sPLIce (full stack) | [Source](https://github.com/ProprietaryLegal/DGX-sPLIce-DeepSeek-V4.1-Flash-2xDGX-Spark-2xRTX3090-drafter-x86-offload) | [Card](https://huggingface.co/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload) |
 | Offload findings | [Source](https://github.com/ProprietaryLegal/dsv41-spark-offload-findings) | [Card](https://huggingface.co/ProprietaryLegal/dsv41-spark-offload-findings) |
 
 Upstream forks: [HeNryous lineage](https://github.com/ProprietaryLegal/deepseek-v41-1017-dgx-spark) · [sudoingX lineage](https://github.com/ProprietaryLegal/dgx-spark-deepseek-v41).
